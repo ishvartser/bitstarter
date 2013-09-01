@@ -2,11 +2,11 @@ var express = require('express');
 var app = express();
 app.use(express.logger());
 
-buf = new Buffer (256);
-
 fs.readFileSync (index.html, String {
    if (err) throw err;
-   buf.toString('utf-8');
+   buf = new Buffer (256);
+   len = buf.write ('\u00bd', 0);
+   console.log ("msg: " + buf.toString ('utf-8', 0, len));
 });
 
 app.get('/', function(request, response) {
